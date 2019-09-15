@@ -141,9 +141,13 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="tHashTable.cpp" />
+    <ClCompile Include="tLinkedList.cpp" />
+    <ClCompile Include="tRedBlackTree.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="tHashTable.h" />
+    <ClInclude Include="tLinkedList.h" />
+    <ClInclude Include="tRedBlackTree.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
